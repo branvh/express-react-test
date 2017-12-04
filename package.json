@@ -1,0 +1,21 @@
+{
+  "name": "express-react-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "cd react-ui/ && npm install --only=dev && npm install && npm run build",
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branvh/express-react-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/branvh/express-react-test/issues"
+  },
+  "homepage": "https://github.com/branvh/express-react-test#readme"
+}
